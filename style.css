@@ -29,3 +29,87 @@ body {
 a {
   text-decoration: none;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 40px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 250px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.menu :hover,
+.menu {
+  color: #eef9f5;
+}
+
+.cart .material-icons {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.principal {
+  background-image: url(imagens/bolsa-wallpaper.jpg);
+  height: 550px;
+
+  .texto {
+    padding-left: 150px;
+    padding-top: 80px;
+  }
+button{
+  background-color: #038f26;
+  color: #e0e0e0;
+  height: 50px;
+  width: 180px;
+  font-size: 15px;
+  border-color: transparent;
+}
+ h1{
+display: flex;
+font-size: 60px;
+  width: 10px;
+  font-weight: 400;
+
+
+ }
+ p{
+  height: 60px;
+  width: 370px;
+ }
+}
