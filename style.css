@@ -113,3 +113,31 @@ font-size: 60px;
   width: 370px;
  }
 }
+ .bolsas{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-left: 50px;
+  padding-bottom: 60px;
+
+  .bolsa {
+    width: 300px;
+
+    img{
+      width: 100%;
+    }
+
+    p {
+      text-align: center;
+      font-weight: bold;
+
+    }
+
+    .menor {
+      font-size: 13px;
+      color: #333;
+    }
+  }
+ }
